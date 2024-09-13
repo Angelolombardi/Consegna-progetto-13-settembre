@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesso Poste Italiane</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #003366;
+            text-align: center;
+        }
+        p {
+            color: #333333;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            background-color: #ffcc00;
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #ffaa00;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            text-align: center;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Attenzione: Verifica del tuo account Poste Italiane</h1>
+        <p>Gentile Cliente,</p>
+        <p>Abbiamo riscontrato un'attività insolita sul tuo account. Per proteggere la tua sicurezza e prevenire eventuali abusi, ti chiediamo di verificare le tue credenziali di accesso.</p>
+        <p>Per favore, clicca sul link qui sotto e inserisci le tue credenziali di accesso per confermare che sei il legittimo proprietario dell'account.</p>
+        <a href="http://phishing-site.com/login" class="button">Verifica il tuo account</a>
+        <p>Grazie per la tua collaborazione.</p>
+        <p>Cordiali saluti,<br>Il Team di Sicurezza di Poste Italiane</p>
+    </div>
+
+    <div class="footer">
+        <p>Questo è un messaggio generato automaticamente, si prega di non rispondere.</p>
+        <p>© 2024 Poste Italiane - Tutti i diritti riservati.</p>
+    </div>
+
+</body>
+</html>
